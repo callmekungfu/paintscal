@@ -130,7 +130,7 @@ input{
 	margin-top: 10px;
 }
 
-@keyframes "beat" {
+@keyframes beat {
  to {
     -webkit-transform: scale(1.4);
    	-moz-transform: scale(1.4);
@@ -149,7 +149,7 @@ input{
 
 }
 
-@-webkit-keyframes "beat" {
+@-webkit-keyframes beat {
  to {
    -webkit-transform: scale(1.4);
    transform: scale(1.4);
@@ -157,7 +157,7 @@ input{
 
 }
 
-@-ms-keyframes "beat" {
+@-ms-keyframes beat {
  to {
    -ms-transform: scale(1.4);
    transform: scale(1.4);
@@ -165,7 +165,7 @@ input{
 
 }
 
-@-o-keyframes "beat" {
+@-o-keyframes beat {
  to {
    -o-transform: scale(1.4);
    transform: scale(1.4);
