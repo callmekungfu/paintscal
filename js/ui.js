@@ -14,18 +14,18 @@ $(document).ready(function() {
         $(".alert").hide();
         var input = $('#rows').val();
         if(input > 1000){
-            $(".error-info").text("TOO BIG, TOO BIG.")
+            $(".error-info").text("The Value entered is too large.")
             $(".alert").show();
             $('#rows').val($('#rows').val().slice(0,-1));
             audioElement.play();
         }else if(input < 1){
-            $(".error-info").text("TOO SMALL, TOO SMALL (The input value is too small, I can't draw a Pascal's Triangle with no rows).")
+            $(".error-info").text("The value input is too small.")
             $(".alert").show();
             $('#rows').val("");
             audioElement.play();
         }else{
             if(!Number.isInteger(Number(input))){
-                $(".error-info").text("INTEGER ONLY PLS!")
+                $(".error-info").text("Integer numbers only")
                 $(".alert").show();
                 $('#rows').val("");
                 audioElement.play();
