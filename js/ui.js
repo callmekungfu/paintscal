@@ -166,7 +166,7 @@ function downloadCanvas(link, canvasId, filename) {
 }
 
 document.getElementById('download').addEventListener('click', function() {
-    downloadCanvas(this, 'hexmap', 'yonglin-is-hot.png');
+    downloadCanvas(this, 'hexmap', 'pascal-image.png');
 });
 
 /* This simple method ensures that the page will not scroll when it's being used. */
