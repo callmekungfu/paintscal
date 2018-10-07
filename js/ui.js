@@ -164,6 +164,6 @@ function downloadCanvas(link, canvasId, filename) {
     link.download = filename;
 }
 
-document.getElementById('download').addEventListener('click', function() {
+$('#download').click(function() {
     downloadCanvas(this, 'hexmap', 'pascal-image.png');
 });
