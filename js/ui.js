@@ -43,13 +43,13 @@ $(document).ready(function() {
             $('#mod').val("");
             audioElement.play();
         }else if(input > 9000){
-            $(".error-info").text("TOO BIG, TOO BIG.")
+            $(".error-info").text("The value is too large.")
             $(".alert").show();
             $('#rows').val("");
             audioElement.play();
         }else{
             if(!Number.isInteger(Number(input))){
-                $(".error-info").text("INTEGER ONLY PLS!")
+                $(".error-info").text("Please only input numbers.")
                 $(".alert").show();
                 $('#mod').val("");
                 audioElement.play();
