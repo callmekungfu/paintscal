@@ -5,7 +5,6 @@
 $(document).ready(function() {
     var audioElement = document.createElement('audio');
     audioElement.setAttribute('src', 'no.mp3');
-    $.get();
     audioElement.addEventListener("load", function() {
         audioElement.play();
     }, true);
