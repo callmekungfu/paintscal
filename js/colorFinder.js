@@ -37,15 +37,12 @@ function calcMod(rowNum, mod){
 function getRandomColor(colors) {
 	var letters = '0123456789ABCDEF';
 	var color;
-    while(true){
+    do{
         color = "#";
         for (var i = 0; i < 6; i++ ) {
             color += letters[Math.floor(Math.random() * 16)];
         }
-        if (!colors.includes(color)) {
-            break;
-        }
-    }
+    } while(colors.includes(color));
 	return color;
 }
 
