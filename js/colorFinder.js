@@ -3,7 +3,7 @@
     according to the given number of rows and the mod number. 
 
     Author: Yonglin Wang
-    Last Official Edit: 10/28/2016
+    Last Official Edit: 02/23/2019
 */
 
 
@@ -18,6 +18,8 @@
         mod - Defines the mod number the triangle is going to be calculated by.
 
     The method returns a 2 dimensional array containing the post calculated values.
+
+    @return 
 */
 function calcMod(rowNum, mod){
     var tri = [[1],[1,1]];
