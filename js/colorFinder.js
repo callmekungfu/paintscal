@@ -10,7 +10,7 @@
 /*
     CalcMod is a method that utilizes the special pattern of the Pascal's Triangle in which -
     - tri[i][j] = tri[i-1][j-1] + tri[i-1][j] -
-    Using this formula, we are able to calculate the modulor value of each element in the Pascal's triangle
+    Using this formula, we are able to calculate the modular value of each element in the Pascal's triangle
     based on the given mod number.
 
     The method requires 2 parameters to function properly:
